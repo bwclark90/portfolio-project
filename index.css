@@ -67,6 +67,7 @@ body {
 
 .container {
   background-color: black;
+  height: 550px;
 }
 
 .picture2 {
@@ -117,21 +118,23 @@ body {
   max-height: 150px;
   width: 100%;
   font-family: 'Lobster', cursive;
+  position: sticky;
 }
 
 .footer-bottom {
-  height: 30px;
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  padding-top: 20px;
+ 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+  
 }
 
 .footer-section-about p {
   text-align: center;
   left: 5px;
+  position: sticky;
 }
 
 .center {
