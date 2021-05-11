@@ -1,0 +1,150 @@
+/* index/home page */
+
+.navbar-brand, .navbar-nav {
+  font-family: 'Lobster', cursive;
+}
+
+body {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+  padding-right: 10px;
+  padding-left: 10 px;
+  min-height: 100px;
+  background-color: black;
+}
+
+.col-11 {
+  background-color: black;
+  color: white;
+  height: 577px;
+}
+
+.heading-content {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  max-width: 100%;
+  font-family: 'Lobster', cursive;
+}
+
+.headinf4j-content h5 {
+  font-size: 3em;
+  font-weight: 300;
+}
+
+.heading-content h1 {
+  font-size: 5em;
+  font-weight: bolder;
+}
+
+.heading-content p {
+  font-size: 2em;
+  font-weight: lighter;
+  word-spacing: 10px;
+}
+
+.picture {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  width: 500px;
+  height: 500px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.mainpic {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 600px;
+}
+
+/* About me */
+
+.container {
+  background-color: black;
+}
+
+.picture2 {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#brandonSam {
+  height: 500px;
+  width: 350px;
+  outline-style: solid;
+  outline-color: white;
+}
+
+.card-title, .card-subtitle, .card-text {
+  font-family: 'Lobster', cursive;
+  background-color: rgb(58, 52, 52);
+  color: white;
+}
+
+.card-body {
+  background-color: rgb(58, 52, 52);
+}
+
+.card-subtitle {
+  font-weight: bolder;
+  color: white;
+}
+
+.title1 {
+  color: white;
+  font-family: 'Lobster', cursive;
+  height: 400px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  outline-style: solid;
+  outline-color: white;
+}
+
+/* footer */
+
+.footer {
+  background: rgb(167, 167, 63);
+  color: black;
+  max-height: 100px;
+  width: 100%;
+  font-family: 'Lobster', cursive;
+}
+
+.footer-bottom {
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+}
+
+.footer-section-about p {
+  text-align: center;
+  left: 5px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.right {
+    
+    
+    float: right;
+    margin-right: auto;
+    margin-left: auto;
+  
+}
