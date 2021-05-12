@@ -17,6 +17,8 @@ I do not have any projects to showcase currently, so all of the links attached o
 
 By clicking "Brandon Clark" in the nav bar, you will be taken back to the home page.
 
+All remaining validator issues are from bootstrap code.
+
 -------------------------------------------------------------------------------------------------------------------
 
 

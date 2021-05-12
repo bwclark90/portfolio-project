@@ -1,5 +1,10 @@
 /* index/home page */
 
+@viewport {
+  zoom: 1.0;
+  width: device-width;
+}
+
 .container-sm1 {
   height: 300 px;
 }
