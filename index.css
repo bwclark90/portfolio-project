@@ -80,8 +80,8 @@ body {
 }
 
 #brandonSam {
-  height: 500px;
-  width: 350px;
+  height: 400px;
+  width: 325px;
   outline-style: solid;
   outline-color: white;
 }
@@ -129,7 +129,6 @@ body {
 
 .footer-section-middle {
   margin-top: 30px;
-  
 }
 
 .footer-bottom {
@@ -169,11 +168,13 @@ body {
   margin-right: 50%;
 }
 
-
-
-
-
-/* .icons {} */
+.icon {
+  height: 65px;
+  width: 125px;
+  background-color: rgb(167, 167, 63);
+  position: relative;
+  top: 20px;
+}
 
 /* contact */
 
