@@ -1,5 +1,9 @@
 /* index/home page */
 
+.container-sm1 {
+  height: 300 px;
+}
+
 .navbar-brand, .navbar-nav {
   font-family: 'Lobster', cursive;
 }
@@ -14,10 +18,9 @@ body {
   background-color: black;
 }
 
-.col-11 {
+.col-5 {
   background-color: black;
   color: white;
-  height: 577px;
 }
 
 .heading-content {
@@ -28,7 +31,7 @@ body {
   font-family: 'Lobster', cursive;
 }
 
-.headinf4j-content h5 {
+.heading-content h5 {
   font-size: 3em;
   font-weight: 300;
 }
@@ -48,19 +51,20 @@ body {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   width: 500px;
-  height: 500px;
-}
-
-.img-fluid {
-  max-width: 100%;
-  height: auto;
+  height: 400px;
+  position: fixed;
+  left: 0px;
+  bottom: 85px;
 }
 
 .mainpic {
   background-color: black;
   color: white;
   width: 100%;
-  height: 600px;
+}
+
+.row1 {
+  height: 400px;
 }
 
 /* About me */
@@ -113,28 +117,31 @@ body {
 /* footer */
 
 .footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   background: rgb(167, 167, 63);
   color: black;
   max-height: 150px;
   width: 100%;
   font-family: 'Lobster', cursive;
-  position: sticky;
+}
+
+.footer-section-middle {
+  margin-top: 30px;
+  
 }
 
 .footer-bottom {
- 
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    display: block;
-    text-align: center;
-  
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .footer-section-about p {
   text-align: center;
   left: 5px;
-  position: sticky;
 }
 
 .center {
@@ -144,10 +151,29 @@ body {
 }
 
 .right {
-  float: right;
+  float: left;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 30px;
+  border: solid black 1px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
+
+.bc-design {
+  height: 75px;
+  width: 75px;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+
+
+
+
+/* .icons {} */
 
 /* contact */
 
@@ -186,5 +212,11 @@ body {
 }
 
 .btn1 {
+  font-family: 'Lobster', cursive;
+}
+
+/* Portfolio */
+
+.card-title1, .card-subtitle1, .card-text1 {
   font-family: 'Lobster', cursive;
 }
