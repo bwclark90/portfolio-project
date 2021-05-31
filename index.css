@@ -17,10 +17,10 @@ body {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
-  padding-right: 10px;
-  padding-left: 10 px;
-  min-height: 100px;
   background-color: black;
+  height: 710px;
+  position: relative;
+  padding-bottom: 150px;
 }
 
 .col-5 {
@@ -76,7 +76,6 @@ body {
 
 .container {
   background-color: black;
-  height: 550px;
 }
 
 .picture2 {
@@ -95,10 +94,31 @@ body {
   font-family: 'Lobster', cursive;
   background-color: rgb(58, 52, 52);
   color: white;
+  text-align: center;
+}
+
+.btn.btn-success {
+  flex-wrap: wrap;
+}
+
+.btn.btn-dark {
+  flex-wrap: wrap;
 }
 
 .card-body {
   background-color: rgb(58, 52, 52);
+  height: 300px;
+  color: white;
+  text-align: center;
+}
+
+.col {
+  padding-top: 50px;
+}
+
+.imgs {
+  height: 200px;
+  width: 100%;
 }
 
 .card-subtitle {
@@ -121,64 +141,45 @@ body {
 
 /* footer */
 
-.footer {
+#iconsdiv{
+  text-align: center;
+  position: relative;
+  top: -25px;
+}
+#footerRow {
   position: absolute;
   bottom: 0;
-  left: 0;
   background: rgb(167, 167, 63);
   color: black;
-  max-height: 150px;
+  height: 150px;
   width: 100%;
   font-family: 'Lobster', cursive;
 }
 
-.footer-section-middle {
-  margin-top: 30px;
+.col-6 {
+  height: 150px;
 }
 
-.footer-bottom {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
+#gitHub, #linkedIn {
+  color: black;
 }
 
-.footer-section-about p {
-  text-align: center;
-  left: 5px;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.right {
-  float: left;
-  margin-right: auto;
-  margin-left: 30px;
-  border: solid black 1px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-}
-
-.bc-design {
-  height: 75px;
-  width: 75px;
-  margin-left: 50%;
-  margin-right: 50%;
-}
-
-.icon {
-  height: 65px;
-  width: 125px;
-  background-color: rgb(167, 167, 63);
+#footerdiv {
   position: relative;
-  top: 20px;
+}
+
+#copyright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#footerimg {
+  height: 150px;
+  width: 100px;
+  float: left;
+  padding-top: 0px;
+  fill: rgb(167, 167, 63);
 }
 
 /* contact */
@@ -225,4 +226,11 @@ body {
 
 .card-title1, .card-subtitle1, .card-text1 {
   font-family: 'Lobster', cursive;
+}
+
+.card-body1 {
+  background-color: rgb(58, 52, 52);
+  height: 420px;
+  color: white;
+  text-align: center;
 }
