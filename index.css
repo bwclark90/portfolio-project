@@ -5,6 +5,11 @@
   width: device-width;
 }
 
+
+
+
+
+
 .container-sm1 {
   height: 300 px;
 }
@@ -18,9 +23,9 @@ body {
   margin-left: auto;
   max-width: 100%;
   background-color: black;
-  height: 710px;
+  min-height: 100vh;
   position: relative;
-  padding-bottom: 150px;
+  
 }
 
 .col-5 {
@@ -151,7 +156,7 @@ body {
   bottom: 0;
   background: rgb(167, 167, 63);
   color: black;
-  height: 150px;
+  height: 10rem;
   width: 100%;
   font-family: 'Lobster', cursive;
 }
